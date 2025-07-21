@@ -1,0 +1,3 @@
+# Страница портала «Gazprom Pay».
+
+Учебный проект **адаптивной** страницы для десктопной, планшетной и мобильной версии страниц «Gazprom Pay — Клиентам» и «Gazprom Pay — Партнёрам», основываясь на дизайне из предоставленного макета в [Figma](https://www.figma.com/design/6j9HAENvBYCOv5ZlQ9dJjG/%D0%93%D0%B0%D0%B7%D0%BF%D1%80%D0%BE%D0%BC%D0%B1%D0%B0%D0%BD%D0%BA---%D0%90%D0%B4%D0%B0%D0%BF%D1%82%D0%B8%D0%B2-FWEB-2384?node-id=1-2&p=f&t=9NIbDC2oJVsW90Gz-0).
