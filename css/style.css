@@ -406,6 +406,11 @@ a {
 .header {
   padding: 16px 0;
 }
+@media (max-width: 767px) {
+  .header {
+    padding: 10px 0 0;
+  }
+}
 .header__wrapper {
   display: flex;
   align-items: center;
@@ -553,9 +558,10 @@ a {
 }
 @media (max-width: 767px) {
   .hero__wrapper {
-    padding: 40px 0 0;
+    padding: 42px 0 0;
     position: relative;
     display: flex;
+    align-items: center;
     flex-direction: column;
   }
 }
@@ -586,9 +592,15 @@ a {
 }
 @media (max-width: 767px) {
   .hero__btn {
+    width: 244px;
     position: absolute;
     top: 262px;
     left: 50%;
+    transform: translateX(-50%);
+    padding: 16px 30px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
   }
 }
 .hero__picture {
@@ -633,6 +645,11 @@ a {
     margin: 0 0 40px;
   }
 }
+@media (max-width: 767px) {
+  .hero__description {
+    margin: 0 0 4px 0;
+  }
+}
 
 .advantages__main-list {
   display: grid;
@@ -641,8 +658,16 @@ a {
   margin: 0 0 100px;
   list-style-type: none;
 }
-.advantages__main-list--grid {
-  grid-template-columns: repeat(2, 1fr);
+@media (max-width: 1439px) {
+  .advantages__main-list {
+    padding: 80px 0 0 0;
+  }
+}
+@media (max-width: 1439px) {
+  .advantages__main-list--grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
 }
 .advantages__main-item--flat {
   grid-column: span 2;
@@ -684,15 +709,28 @@ a {
 }
 
 .card-advantages {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   -moz-column-gap: 100px;
        column-gap: 100px;
   height: 100%;
   border-radius: 16px;
 }
+@media (max-width: 1439px) {
+  .card-advantages {
+    height: auto;
+    padding: 0 15px 30px;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
 .card-advantages--reverse .card-advantages__content {
   padding: 100px 0 100px 140px;
+}
+@media (max-width: 1439px) {
+  .card-advantages--reverse .card-advantages__content {
+    padding: 30px 15px 0;
+  }
 }
 .card-advantages--heavenly {
   background-color: #A8DCFF;
@@ -725,6 +763,18 @@ a {
 .card-advantages__picture {
   flex-shrink: 0;
 }
+@media (max-width: 1439px) {
+  .card-advantages__image {
+    width: 250px;
+    height: 220px;
+  }
+}
+@media (max-width: 767px) {
+  .card-advantages__image {
+    width: 250px;
+    height: 220px;
+  }
+}
 .card-advantages__sublist {
   display: flex;
   flex-direction: column;
@@ -742,20 +792,50 @@ a {
   flex-direction: column;
   align-items: flex-start;
 }
+@media (max-width: 1439px) {
+  .card-advantages__content {
+    padding: 0;
+  }
+}
 .card-advantages__heading {
   margin: 0 0 20px 0;
   font-weight: 700;
   font-size: 32px;
   line-height: 36px;
 }
+@media (max-width: 1439px) {
+  .card-advantages__heading {
+    margin: 0 0 10px 0;
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
 .card-advantages__description {
   margin: 0;
   font-size: 18px;
   line-height: 24px;
 }
+@media (max-width: 1439px) {
+  .card-advantages__description {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
 .card-advantages__btn {
   width: 224px;
   margin: 32px 0 0 0;
+}
+@media (max-width: 1439px) {
+  .card-advantages__btn {
+    width: auto;
+    padding: 12px 24px;
+    margin: 30px auto 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+  }
 }
 
 .how-pay {

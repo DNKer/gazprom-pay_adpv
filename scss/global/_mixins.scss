@@ -1,6 +1,6 @@
 @mixin vp-1439 {
   @media (max-width: $vp-tablet) {
-    @content;
+    @content; 
   }
 }
 
