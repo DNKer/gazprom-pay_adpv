@@ -14,6 +14,11 @@
     background-color: $color-solitude-3;
   }
 
+  &__link:focus,
+  &__link:hover {
+    background-color: $color-link-water;
+  }
+
   @include vp-767 {
     display: none;
   }

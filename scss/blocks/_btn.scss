@@ -12,11 +12,21 @@
   border-radius: 8px;
   cursor: pointer;
 
+  &:disabled {
+    background-color: $color-white-smoke-2;
+    color: $color-manatee-2;
+  }
+
   &--second {
     padding: 18px 33px;
     font-size: 15px;
     line-height: 20px;
     background-color: $color-royal-blue-1;
+
+    &:disabled {
+      background-color: $color-white-smoke-2;
+      color: $color-manatee-2;
+    }
 
     @include vp-1439 {
       padding: 16px 33px;
@@ -43,6 +53,11 @@
     background-color: $color-white;
   }
 
+  &--third:hover,
+  &--third:focus {
+    background-color: $color-solitude-4;
+  }
+
   &--fourth {
     color: $color-black-russian;
     background-color: $color-solitude-1;
@@ -67,6 +82,11 @@
       line-height: 20px;
       text-align: end;
     }
+  }
+
+  &--fifth:focus,
+  &--fifth:hover {
+    background-color: $color-solitude-4;
   }
 
   &--sixth {

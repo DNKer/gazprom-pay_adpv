@@ -87,6 +87,11 @@
     }
   }
 
+  &__phone:hover,
+  &__phone:focus {
+    color: $color-royal-blue-1;
+  }
+
   &__phone-link {
     font-size: 20px;
     line-height: 28px;
@@ -127,6 +132,11 @@
     width: 143px;
   }
 
+  &__feedback-btn:focus,
+  &__feedback-btn:hover {
+    background-color: $color-blue-zodiac;
+  }
+
   &__location {
     row-gap: 8px;
 
@@ -143,6 +153,11 @@
     font-weight: 500;
     line-height: 16px;
     color: $color-royal-blue-1;
+  }
+
+  &__location-link:hover,
+  &__location-link:focus {
+    color: $color-royal-blue-2;
   }
 
   &__nav-list {
@@ -162,6 +177,13 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
+  }
+
+  &__nav-link:hover,
+  &__nav-link:focus,
+  &__copyright-link:hover,
+  &__copyright-link:focus {
+    color: $color-royal-blue-1;
   }
 
   &__right {
@@ -217,5 +239,13 @@
     display: flex;
     align-items: center;
     column-gap: 8px;
+    color: $color-storm-grey-2;
+  }
+
+  &__language-link:hover,
+  &__language-link:focus,
+  &__policy-link:focus,
+  &__policy-link:hover {
+    color: $color-black-russian;
   }
 }

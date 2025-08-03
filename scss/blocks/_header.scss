@@ -41,9 +41,9 @@
     }
   }
 
-  &__btn {
-    // width: 128px;
-  }
+  // &__btn {
+  //   // width: 128px;
+  // }
 
   &__btn--active {
     @include vp-1439 {
@@ -64,5 +64,11 @@
     border: 1px solid $color-hawkes-blue;
     border-radius: 12px;
     padding: 17px 24px 17px 25px;
+  }
+
+  &__language-link:hover,
+  &__language-link:focus {
+    background-color: $color-solitude-4;
+    border: 1px solid $color-hawkes-blue;
   }
 }

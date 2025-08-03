@@ -57,8 +57,9 @@
     }
   }
 
-  &__btn {
-    // width: 272px;
+  &__btn:hover,
+  &__btn:focus {
+    background-color: $color-free-speech-blue;
   }
 
 
