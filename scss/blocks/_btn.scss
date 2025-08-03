@@ -12,9 +12,10 @@
   border-radius: 8px;
   cursor: pointer;
 
-  &:disabled {
+  &[disabled] {
     background-color: $color-white-smoke-2;
     color: $color-manatee-2;
+    pointer-events: none;
   }
 
   &--second {
@@ -66,7 +67,6 @@
   &--fifth {
     color: $color-black-russian;
     background-color: transparent;
-    // padding: 15px;
     text-align: start;
 
     @include vp-1439 {
@@ -87,6 +87,10 @@
   &--fifth:focus,
   &--fifth:hover {
     background-color: $color-solitude-4;
+  }
+
+  &--fifth:disabled {
+    display: none;
   }
 
   &--sixth {

@@ -470,6 +470,9 @@ a {
   background-color: #EAECF4;
   border: 1px solid #DBDFEC;
 }
+.header__language-link:disabled {
+  color: #9A9BA0;
+}
 
 .btn {
   outline: none;
@@ -485,9 +488,10 @@ a {
   border-radius: 8px;
   cursor: pointer;
 }
-.btn:disabled {
+.btn[disabled] {
   background-color: #F0F0F0;
   color: #9A9BA0;
+  pointer-events: none;
 }
 .btn--second {
   padding: 18px 33px;
@@ -554,6 +558,9 @@ a {
 }
 .btn--fifth:focus, .btn--fifth:hover {
   background-color: #EAECF4;
+}
+.btn--fifth:disabled {
+  display: none;
 }
 .btn--sixth {
   padding: 12px;

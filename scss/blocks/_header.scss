@@ -41,10 +41,6 @@
     }
   }
 
-  // &__btn {
-  //   // width: 128px;
-  // }
-
   &__btn--active {
     @include vp-1439 {
       display: none;
@@ -70,5 +66,9 @@
   &__language-link:focus {
     background-color: $color-solitude-4;
     border: 1px solid $color-hawkes-blue;
+  }
+
+  &__language-link:disabled {
+    color: $color-manatee-2;
   }
 }
