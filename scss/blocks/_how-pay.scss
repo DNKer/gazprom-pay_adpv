@@ -1,7 +1,7 @@
 .how-pay {
   padding: 100px 0 0 0;
 
-  @include vp-1439 {
+  @include vp-1023 {
     padding: 80px 0 0 0;
   }
 
@@ -15,7 +15,7 @@
     font-size: 32px;
     line-height: 36px;
 
-    @include vp-1439 {
+    @include vp-1023 {
       margin: 0 0 30px 0;
       font-size: 22px;
       line-height: 28px;
@@ -34,7 +34,7 @@
     padding: 0;
     list-style: none;
 
-    @include vp-1439 {
+    @include vp-1023 {
       grid-template-columns: repeat(2, 1fr);
       gap: 30px 26px;
     }
@@ -51,22 +51,25 @@
     flex-direction: column;
     align-items: center;
 
-    @include vp-1439 {
+    @include vp-1023 {
       align-items: flex-start
     }
   }
 
   &__item {
-    @include vp-1439 {
+    @include vp-1023 {
       flex-direction: row;
       gap: 15px;
     }
   }
 
-  &__icon {
+  &__icon-choice,
+  &__icon-registration,
+  &__icon-add-card,
+  &__icon-pay-purchase {
     margin: 0 0 20px 0;
 
-    @include vp-1439 {
+    @include vp-1023 {
       width: 56px;
       height: 56px;
       margin: 0;
@@ -80,7 +83,7 @@
     line-height: 28px;
     text-align: center;
 
-    @include vp-1439 {
+    @include vp-1023 {
       margin: 0 0 10px 0;
       font-size: 18px;
       line-height: 22px;
@@ -94,7 +97,7 @@
     line-height: 20px;
     color: $color-storm-grey-1;
 
-    @include vp-1439 {
+    @include vp-1023 {
       font-weight: 400;
       font-size: 14px;
       line-height: 20px;

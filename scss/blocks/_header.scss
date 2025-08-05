@@ -31,9 +31,9 @@
     border: 1px solid $color-hawkes-blue;
     border-radius: 12px;
     column-gap: 5px;
-    padding: 5px;
+    padding: 7px;
 
-    @include vp-1439 {
+    @include vp-1023 {
       margin: 0;
       padding: 20px 0;
       border: none;
@@ -42,14 +42,14 @@
   }
 
   &__btn--active {
-    @include vp-1439 {
+    @include vp-1023 {
       display: none;
     }
   }
 
   &__language-link {
 
-    @include vp-1439 {
+    @include vp-1023 {
       display: none;
     }
 

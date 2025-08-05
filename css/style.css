@@ -377,7 +377,7 @@ a {
   margin: 0 auto;
   padding: 0 100px;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .container {
     padding: 0 30px;
   }
@@ -436,9 +436,9 @@ a {
   border-radius: 12px;
   -moz-column-gap: 5px;
        column-gap: 5px;
-  padding: 5px;
+  padding: 7px;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .header__box {
     margin: 0;
     padding: 20px 0;
@@ -446,7 +446,7 @@ a {
     border-radius: 0;
   }
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .header__btn--active {
     display: none;
   }
@@ -461,7 +461,7 @@ a {
   border-radius: 12px;
   padding: 17px 24px 17px 25px;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .header__language-link {
     display: none;
   }
@@ -503,7 +503,7 @@ a {
   background-color: #F0F0F0;
   color: #9A9BA0;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .btn--second {
     padding: 16px 33px;
     font-size: 13px;
@@ -540,7 +540,7 @@ a {
   background-color: transparent;
   text-align: start;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .btn--fifth {
     padding: 0;
     font-size: 15px;
@@ -579,7 +579,7 @@ a {
 .hero--partners .hero__heading {
   margin: 0 0 48px 0;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .hero--partners .hero__heading {
     margin: 0 0 40px 0;
   }
@@ -602,7 +602,7 @@ a {
   -moz-column-gap: 180px;
        column-gap: 180px;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .hero__wrapper {
     -moz-column-gap: 8px;
          column-gap: 8px;
@@ -637,7 +637,7 @@ a {
   height: 640px;
   width: 660px;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .hero__picture {
     height: 410px;
     width: 420px;
@@ -655,7 +655,7 @@ a {
   font-size: 40px;
   line-height: 48px;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .hero__heading {
     font-size: 32px;
     line-height: 38px;
@@ -670,7 +670,7 @@ a {
   font-size: 16px;
   line-height: 24px;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .hero__description {
     margin: 0 0 40px;
   }
@@ -689,7 +689,7 @@ a {
   margin: 0 0 100px;
   list-style-type: none;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .advantages__main-list {
     grid-template-columns: 1fr 1fr;
     margin: 80px 0 0 0;
@@ -727,7 +727,7 @@ a {
   padding: 0 80px;
   list-style: none;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .advantages__list {
     margin: 80px 0 0;
     padding: 0;
@@ -758,7 +758,7 @@ a {
   border-radius: 12px;
   background-color: #476BF0;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .advantages__list-box {
     width: 48px;
     height: 48px;
@@ -771,7 +771,7 @@ a {
   font-size: 24px;
   line-height: 28px;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .advantages__list-heading {
     font-weight: 700;
     font-size: 18px;
@@ -786,7 +786,7 @@ a {
   text-align: center;
   color: #696E82;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .advantages__list-description {
     font-weight: 400;
     font-size: 14px;
@@ -802,7 +802,7 @@ a {
        column-gap: 100px;
   border-radius: 16px;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .card-advantages {
     height: auto;
     padding: 0 15px 30px;
@@ -810,7 +810,7 @@ a {
     gap: 10px;
   }
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .card-advantages--reverse {
     padding: 30px 15px 0;
   }
@@ -818,7 +818,7 @@ a {
 .card-advantages--reverse .card-advantages__content {
   padding: 100px 0 100px 140px;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .card-advantages--reverse .card-advantages__content {
     margin: 0 0 10px 0;
     padding: 0;
@@ -834,7 +834,7 @@ a {
   color: #FFFFFF;
   background-color: #5E81FF;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .card-advantages--blue {
     padding: 0;
     flex-direction: row;
@@ -873,7 +873,7 @@ a {
   grid-column: span 1;
   min-height: 640px;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .card-advantages--small {
     min-height: 408px;
   }
@@ -881,7 +881,7 @@ a {
 .card-advantages--small .card-advantages__content {
   padding: 60px;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .card-advantages--small .card-advantages__content {
     padding: 30px 30px 0;
   }
@@ -889,14 +889,14 @@ a {
 .card-advantages--small .card-advantages__picture {
   margin: auto 0 0 0;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .card-advantages--small .card-advantages__picture .card-advantages__image {
     margin: 0;
     width: 345px;
     height: 186px;
   }
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .card-advantages--dark-gray, .card-advantages--light-gray {
     padding: 0;
   }
@@ -924,7 +924,7 @@ a {
 .card-advantages__picture {
   flex-shrink: 0;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .card-advantages__image {
     width: 250px;
     height: 220px;
@@ -953,7 +953,7 @@ a {
   flex-direction: column;
   align-items: flex-start;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .card-advantages__content {
     padding: 0;
   }
@@ -964,7 +964,7 @@ a {
   font-size: 32px;
   line-height: 36px;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .card-advantages__heading {
     margin: 0 0 10px 0;
     font-size: 22px;
@@ -976,7 +976,7 @@ a {
   font-size: 18px;
   line-height: 24px;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .card-advantages__description {
     font-size: 14px;
     line-height: 20px;
@@ -986,7 +986,7 @@ a {
   width: 224px;
   margin: 32px 0 0 0;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .card-advantages__btn {
     width: auto;
     padding: 12px 24px;
@@ -1002,7 +1002,7 @@ a {
 .how-pay {
   padding: 100px 0 0 0;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .how-pay {
     padding: 80px 0 0 0;
   }
@@ -1018,7 +1018,7 @@ a {
   font-size: 32px;
   line-height: 36px;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .how-pay__title {
     margin: 0 0 30px 0;
     font-size: 22px;
@@ -1038,7 +1038,7 @@ a {
   padding: 0;
   list-style: none;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .how-pay__list {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px 26px;
@@ -1055,22 +1055,22 @@ a {
   flex-direction: column;
   align-items: center;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .how-pay__item, .how-pay__content {
     align-items: flex-start;
   }
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .how-pay__item {
     flex-direction: row;
     gap: 15px;
   }
 }
-.how-pay__icon {
+.how-pay__icon-choice, .how-pay__icon-registration, .how-pay__icon-add-card, .how-pay__icon-pay-purchase {
   margin: 0 0 20px 0;
 }
-@media (max-width: 1439px) {
-  .how-pay__icon {
+@media (max-width: 1023px) {
+  .how-pay__icon-choice, .how-pay__icon-registration, .how-pay__icon-add-card, .how-pay__icon-pay-purchase {
     width: 56px;
     height: 56px;
     margin: 0;
@@ -1083,7 +1083,7 @@ a {
   line-height: 28px;
   text-align: center;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .how-pay__heading {
     margin: 0 0 10px 0;
     font-size: 18px;
@@ -1097,7 +1097,7 @@ a {
   line-height: 20px;
   color: #696E82;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .how-pay__description {
     font-weight: 400;
     font-size: 14px;
@@ -1109,7 +1109,7 @@ a {
 .payment {
   padding: 100px 0;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .payment {
     padding: 80px 0;
   }
@@ -1122,7 +1122,7 @@ a {
 .payment--partners {
   padding: 0 0 100px;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .payment--partners {
     padding: 80px 0;
   }
@@ -1139,7 +1139,7 @@ a {
   font-size: 32px;
   line-height: 36px;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .payment__title {
     max-width: unset;
     margin: 0 0 30px 0;
@@ -1155,7 +1155,7 @@ a {
   padding: 0;
   list-style: none;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .payment__list {
     gap: 16px;
   }
@@ -1172,7 +1172,7 @@ a {
   background-color: #F6F6F6;
   border-radius: 16px;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .payment__picture {
     margin: 0 0 15px 0;
     border-radius: 12px;
@@ -1183,7 +1183,7 @@ a {
   font-size: 20px;
   line-height: 24px;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .payment__heading {
     margin: 0 0 5px 0;
     font-size: 16px;
@@ -1196,7 +1196,7 @@ a {
   line-height: 20px;
   color: #696E82;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .payment__description {
     max-width: 160px;
     font-size: 14px;
@@ -1220,7 +1220,7 @@ a {
        column-gap: 129px;
   align-items: start;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .footer__wrapper {
     grid-template-columns: 191px 1fr;
     gap: 156px;
@@ -1358,7 +1358,7 @@ a {
   padding: 20px 0 0;
   list-style: none;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .footer__nav-list {
     display: none;
   }
@@ -1374,7 +1374,7 @@ a {
 .footer__right {
   padding: 20px 40px 0 51px;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .footer__right {
     padding: 20px 0 0 0;
   }

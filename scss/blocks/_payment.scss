@@ -1,7 +1,7 @@
 .payment {
   padding: 100px 0;
 
-  @include vp-1439 {
+  @include vp-1023 {
     padding: 80px 0;
   }
 
@@ -12,7 +12,7 @@
   &--partners {
     padding: 0 0 100px;
 
-    @include vp-1439 {
+    @include vp-1023 {
       padding: 80px 0;
     }
 
@@ -28,7 +28,7 @@
     font-size: 32px;
     line-height: 36px;
 
-    @include vp-1439 {
+    @include vp-1023 {
       max-width: unset;
       margin: 0 0 30px 0;
       font-size: 22px;
@@ -44,7 +44,7 @@
     padding: 0;
     list-style: none;
 
-    @include vp-1439 {
+    @include vp-1023 {
       gap: 16px;
     }
 
@@ -60,7 +60,7 @@
     background-color: $color-white-smoke-1;
     border-radius: 16px;
 
-    @include vp-1439 {
+    @include vp-1023 {
       margin: 0 0 15px 0;
       border-radius: 12px;
     }
@@ -71,7 +71,7 @@
     font-size: 20px;
     line-height: 24px;
 
-    @include vp-1439 {
+    @include vp-1023 {
       margin: 0 0 5px 0;
       font-size: 16px;
       line-height: 22px;
@@ -84,7 +84,7 @@
     line-height: 20px;
     color: $color-storm-grey-1;
 
-    @include vp-1439 {
+    @include vp-1023 {
       max-width: 160px;
       font-size: 14px;
       line-height: 20px;

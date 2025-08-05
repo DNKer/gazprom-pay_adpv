@@ -56,4 +56,69 @@
     <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M25 6.7c-3.4 0-6.6-1.4-9-3.7-2.4 2.3-5.6 3.7-9 3.7-1.4 0-2.7-.3-4-.7 0 14 5.5 19.6 13 23 7.5-3.4 13-9 13-23-1.3.4-2.6.7-4 .7Z"></path>
     <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="m12 16 3 3 6-6"></path>
   </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 72 72" id="how-pay__icon-choice">
+    <circle cx="36" cy="36" r="36" fill="#4C5269"></circle>
+    <path fill="url(#icon-step-1-linear)" fill-rule="evenodd" d="M71.562 41.63C68.86 58.837 53.967 72 36 72c-10.399 0-19.768-4.41-26.34-11.46C14.368 55.01 26.076 50.5 52.5 50.5c4.145 0 8.427-2.65 12.618-5.245 2.184-1.35 4.342-2.687 6.444-3.626Z" clip-rule="evenodd"></path>
+    <g clip-path="url(#icon-step-1-clip)">
+      <path fill="#fff" d="M26.82 26.82V32.1H32.1V26.82H26.82Zm6.54 0V32.1h5.28V26.82h-5.28Zm6.541 0V32.1h5.279V26.82H39.9Zm-13.08 6.54v5.28h5.278v-5.28H26.82Zm6.54 0v5.28h5.278v-5.28h-5.278Zm6.54 0v5.28h5.279v-5.28H39.9Zm-13.08 6.541v5.279h5.278V39.9H26.82Zm6.54 0v5.279h5.278V39.9h-5.278Zm6.54 0v5.279h5.279V39.9H39.9Z"></path>
+    </g>
+    <defs>
+      <linearGradient id="icon-step-1-linear" x1="44.983" x2="44.983" y1="41.054" y2="78.546" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#8A90FE"></stop>
+        <stop offset="1" stop-color="#CD9AFF"></stop>
+      </linearGradient>
+      <clipPath id="icon-step-1-clip">
+        <path fill="#fff" d="M26 26h20v20H26z"></path>
+      </clipPath>
+    </defs>
+  </symbol>
+  <symbol viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg" id="how-pay__icon-registration">
+      <circle cx="36" cy="36" r="36" fill="#4C5269"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M35.9999 71.9999C55.8821 71.9999 71.9999 55.8822 71.9999 35.9999C71.9999 34.637 71.9241 33.2918 71.7766 31.9682C66.0973 34.8718 59.14 37.4996 50.4998 37.4996C24.7628 37.4996 10.0426 41.7326 1.87854 47.5082C6.67906 61.7467 20.1421 71.9999 35.9999 71.9999Z" fill="url(#paint0_linear_5_243)"/>
+      <g clip-path="url(#clip0_5_243)">
+      <path d="M26.8203 26.8203V32.0986H32.0986V26.8203H26.8203ZM33.3608 26.8203V32.0986H38.6392V26.8203H33.3608ZM39.9014 26.8203V32.0986H45.1797V26.8203H39.9014ZM26.8203 33.3608V38.6392H32.0986V33.3608H26.8203ZM33.3608 33.3608V38.6392H38.6392V33.3608H33.3608ZM39.9014 33.3608V38.6392H45.1797V33.3608H39.9014ZM26.8203 39.9014V45.1797H32.0986V39.9014H26.8203ZM33.3608 39.9014V45.1797H38.6392V39.9014H33.3608ZM39.9014 39.9014V45.1797H45.1797V39.9014H39.9014Z" fill="white"/>
+      </g>
+      <defs>
+      <linearGradient id="paint0_linear_5_243" x1="41.8918" y1="31.2098" x2="41.8918" y2="80.6282" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6683FF"/>
+      <stop offset="1" stop-color="#BB98FF"/>
+      </linearGradient>
+      <clipPath id="clip0_5_243">
+      <rect width="20" height="20" fill="white" transform="translate(26 26)"/>
+      </clipPath>
+      </defs>
+  </symbol>
+  <symbol viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg" id="how-pay__icon-add-card">
+      <circle cx="36" cy="36" r="36" fill="#4C5269"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M35.9999 71.9999C55.8821 71.9999 71.9999 55.8822 71.9999 35.9999C71.9999 26.8763 68.6059 18.5455 63.0117 12.2009C56.2802 16.1766 48.1412 19.9994 39.0001 19.9994C20.4931 19.9994 8.44116 23.3424 0.796025 28.4352C0.274414 30.8743 -0.00012207 33.4051 -0.00012207 35.9999C-0.00012207 55.8822 16.1176 71.9999 35.9999 71.9999Z" fill="url(#paint0_linear_5_253)"/>
+      <g clip-path="url(#clip0_5_253)">
+      <path d="M26.8203 26.8203V32.0986H32.0986V26.8203H26.8203ZM33.3608 26.8203V32.0986H38.6392V26.8203H33.3608ZM39.9014 26.8203V32.0986H45.1797V26.8203H39.9014ZM26.8203 33.3608V38.6392H32.0986V33.3608H26.8203ZM33.3608 33.3608V38.6392H38.6392V33.3608H33.3608ZM39.9014 33.3608V38.6392H45.1797V33.3608H39.9014ZM26.8203 39.9014V45.1797H32.0986V39.9014H26.8203ZM33.3608 39.9014V45.1797H38.6392V39.9014H33.3608ZM39.9014 39.9014V45.1797H45.1797V39.9014H39.9014Z" fill="white"/>
+      </g>
+      <defs>
+      <linearGradient id="paint0_linear_5_253" x1="41.0852" y1="11.0681" x2="41.0852" y2="84.8888" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5E81FF"/>
+      <stop offset="0.516474" stop-color="#7788FF"/>
+      <stop offset="1" stop-color="#CD9DFC"/>
+      </linearGradient>
+      <clipPath id="clip0_5_253">
+      <rect width="20" height="20" fill="white" transform="translate(26 26)"/>
+      </clipPath>
+      </defs>
+  </symbol>
+  <symbol viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg" id="how-pay__icon-pay-purchase">
+      <circle cx="36" cy="36" r="36" fill="url(#paint0_linear_5_263)"/>
+      <g clip-path="url(#clip0_5_263)">
+      <path d="M26.8203 26.8203V32.0986H32.0986V26.8203H26.8203ZM33.3608 26.8203V32.0986H38.6392V26.8203H33.3608ZM39.9014 26.8203V32.0986H45.1797V26.8203H39.9014ZM26.8203 33.3608V38.6392H32.0986V33.3608H26.8203ZM33.3608 33.3608V38.6392H38.6392V33.3608H33.3608ZM39.9014 33.3608V38.6392H45.1797V33.3608H39.9014ZM26.8203 39.9014V45.1797H32.0986V39.9014H26.8203ZM33.3608 39.9014V45.1797H38.6392V39.9014H33.3608ZM39.9014 39.9014V45.1797H45.1797V39.9014H39.9014Z" fill="white"/>
+      </g>
+      <defs>
+      <linearGradient id="paint0_linear_5_263" x1="36" y1="0" x2="36" y2="72" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7B94F1"/>
+      <stop offset="0.51" stop-color="#6583FF"/>
+      <stop offset="1" stop-color="#C499FF"/>
+      </linearGradient>
+      <clipPath id="clip0_5_263">
+      <rect width="20" height="20" fill="white" transform="translate(26 26)"/>
+      </clipPath>
+      </defs>
+  </symbol>
 </svg>
